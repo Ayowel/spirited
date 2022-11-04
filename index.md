@@ -21,7 +21,7 @@ This repository is used to track the documentation for [Spirited](https://ayowel
 The following technical demo runs in Ren'Py. Keep in mind that dynamically changing
 Spirited's parameters as is done in the demo requires extensive knowledge of its
 inner working at the moment. If you'd like the extension to provide the ability to
-do this more easily with Ren'Py-compatible, let us know by opening an issue on GitHub
+do this more easily with Ren'Py-compatible patterns, let us know by opening an issue on GitHub
 so we can try to provide this feature if there is enough interest in it.
 
 {% include youtube.html id="0e26dStphqM" %}
