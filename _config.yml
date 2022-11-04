@@ -1,5 +1,15 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: Spirited
+description: >-
+  Documentation for the Ren'Py extension 'Spirited'.
+author:
+  name: Ayowel
+  email: ayowelsei@gmail.com
+show_downloads: false
+google_analytics: false
+left_toc: true
+
+github_username:  ayowel
+twitch_username:  ayowel
+itch_link: https://ayowel.itch.io/spirited
+
 theme: jekyll-theme-hacker

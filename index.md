@@ -2,122 +2,32 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# General information
 
-[Link to another page](./another-page.html).
+This repository is used to track the documentation for [Spirited](https://ayowel.itch.io/spirited) as well as any known issues it might have.
 
-There should be whitespace between paragraphs.
+# Usage
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+{% include sources_docs/usage.md %}
 
-# Header 1
+# Technical documentation
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+{% include sources_docs/Spirited.md %}
 
-## Header 2
+{% include sources_docs/SpiritedSpriteInfo.md %}
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+# Want to do more ?
 
-### Header 3
+The following technical demo runs in Ren'Py. Keep in mind that dynamically changing
+Spirited's parameters as is done in the demo requires extensive knowledge of its
+inner working at the moment. If you'd like the extension to provide the ability to
+do this more easily with Ren'Py-compatible, let us know by opening an issue on GitHub
+so we can try to provide this feature if there is enough interest in it.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+{% include youtube.html id="0e26dStphqM" %}
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+Need technical assistance or need something specific to be added to the extension ?
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+* Open an [issue on GitHub](https://github.com/ayowel/spirited/issues)
+* Or contact me on [twitch](https://twitch.tv/{{ site.twitch_username }})
+* Or contact me by [mail](mailto:{{ site.author.email }}) (may take a while to answer)
