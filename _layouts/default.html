@@ -26,7 +26,7 @@
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
           {%- endif %}
           {%- if site.github_username -%}
-            <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+            <a href="{{ site.github.repository_url | default: 'https://github.com/ayowel/spirited' }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
           {%- endif %}
           {%- if site.itch_link -%}
             <a href="{{ site.itch_link }}" class="btn btn-itch"><span class="icon"></span>View on Itch</a>

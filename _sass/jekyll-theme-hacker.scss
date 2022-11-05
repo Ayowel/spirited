@@ -251,7 +251,7 @@ hr {
 
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-shadow: 0 0 0px rgba(104, 182, 255, 0.5);
 }
 
 /* Clearfix */
@@ -375,7 +375,7 @@ nav {
 
         a {
           font-weight: bold;
-          color: #333;
+          color: #666;
         }
 
         + .tag-h2 {
@@ -384,15 +384,30 @@ nav {
       }
 
       &.tag-h2 {
+        font-size: 1.1em;
 
         + .tag-h1 {
           margin-top:10px;
         }
       }
+
+      &.tag-h3 {
+        font-size: 0.9em;
+
+        + .tag-h1 {
+          margin-top:10px;
+        }
+
+        a {
+          font-weight: bold;
+          color: #bbb;
+        }
+
+      }
     }
 
     a {
-      color: #666;
+      color: #999;
 
       &:hover { color: #999; }
     }

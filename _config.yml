@@ -13,3 +13,6 @@ twitch_username:  ayowel
 itch_link: https://ayowel.itch.io/spirited
 
 theme: jekyll-theme-hacker
+
+exclude:
+  - "*.gemspec"
