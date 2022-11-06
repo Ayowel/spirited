@@ -4,7 +4,7 @@ layout: default
 
 # General information
 
-This repository is used to track the documentation for [Spirited](https://ayowel.itch.io/spirited) as well as any known issues it might have.
+This pages contains documentation for the latest version of [Spirited](https://ayowel.itch.io/spirited), a Ren'Py extension.
 
 # Usage
 
