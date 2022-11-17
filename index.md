@@ -4,7 +4,7 @@ layout: default
 
 # General information
 
-This pages contains documentation for the latest version of [Spirited](https://ayowel.itch.io/spirited), a Ren'Py extension.
+This page contains the documentation for [Spirited](https://ayowel.itch.io/spirited), a Ren'Py extension.
 
 # Usage
 
