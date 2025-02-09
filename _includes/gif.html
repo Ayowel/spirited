@@ -1,1 +1,1 @@
-<img width="{{ include.width | default: 320 }}" height="{{ include.height | default: 180 }}" style="display: block; margin: 0 auto 0 auto;" src="{{ 'assets/images/' | append: include.name | append: '.gif' | relative_url }}" />
+<img alt="{{ include.alt | default: 'Illustration GIF' }}" width="{{ include.width | default: 320 }}" height="{{ include.height | default: 180 }}" style="display: block; margin: 0 auto 0 auto;" src="{{ 'assets/images/' | append: include.name | append: '.gif' | relative_url }}" />

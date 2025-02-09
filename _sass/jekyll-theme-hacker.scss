@@ -1,11 +1,11 @@
-@import "rouge-base16-dark";
-@import "default_colors";
+@use "rouge-base16-dark";
+@use "default_colors" as colors;
 
-$body-background: $cod-grey !default;
-$body-foreground: $gallery !default;
-$header: $conifer !default;
-$blockquote-color: $silver-chalice !default;
-$blockquote-border: $dove-grey !default;
+$body-background: colors.$cod-grey !default;
+$body-foreground: colors.$gallery !default;
+$header: colors.$conifer !default;
+$blockquote-color: colors.$silver-chalice !default;
+$blockquote-border: colors.$dove-grey !default;
 $container-max-width: 1000px;
 
 @mixin media-max-width($max-width) {
@@ -54,7 +54,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
+  border-bottom: 1px dashed colors.$conifer; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -65,7 +65,7 @@ header h1 {
   margin: 0 0 0 0;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $conifer;//$header;
+  color: colors.$conifer;//$header;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -278,20 +278,20 @@ a {
  */
 
 footer .wrapper {
-  max-width: calc(#{$container-max-width} - (#{$spacing-unit}));
+  max-width: calc(#{$container-max-width} - (#{colors.$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  padding-right: calc(colors.$spacing-unit / 2);
+  padding-left: calc(colors.$spacing-unit / 2);
 }
 
  .site-footer {
   border-top: 1px solid rgb(140, 130, 115);
-  padding: $spacing-unit 0;
+  padding: colors.$spacing-unit 0;
 }
 
 .footer-heading {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: calc(colors.$spacing-unit / 2);
 }
 
 .feed-subscribe .svg-icon {
@@ -305,16 +305,16 @@ footer .wrapper {
 }
 
 .footer-col {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: calc(colors.$spacing-unit / 2);
 }
 
 .footer-col-1,
 .footer-col-2 {
-  width: calc(50% - (#{$spacing-unit} / 2));
+  width: calc(50% - (#{colors.$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: calc(100% - (#{$spacing-unit} / 2));
+  width: calc(100% - (#{colors.$spacing-unit} / 2));
 }
 
 @media screen {
@@ -323,17 +323,17 @@ footer .wrapper {
   }
 
   .footer-col {
-    width: calc(100% - (#{$spacing-unit} / 2));
-    padding: 0 ($spacing-unit / 2);
+    width: calc(100% - (#{colors.$spacing-unit} / 2));
+    padding: 0 calc(colors.$spacing-unit / 2);
 
     &:first-child {
-      padding-right: $spacing-unit / 2;
+      padding-right: calc(colors.$spacing-unit / 2);
       padding-left: 0;
     }
 
     &:last-child {
       padding-right: 0;
-      padding-left: $spacing-unit / 2;
+      padding-left: calc(colors.$spacing-unit / 2);
     }
   }
 }
